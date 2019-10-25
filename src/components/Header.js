@@ -4,7 +4,13 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div>Lauren Keeley</div>
+      <React.Fragment>
+        <div className="NavBar">
+          <div className="SiteTitle">Lauren Keeley</div>
+          <div className="SubMenu">About</div>
+          <div className="SubMenu">Writing</div>
+        </div>
+      </React.Fragment>
     );
   }
 }
