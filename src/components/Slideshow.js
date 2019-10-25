@@ -14,7 +14,14 @@ export default class Slideshow extends React.Component {
   render() {
     return(
       <div>
-        <img style={{width:1000}} src={this.state.images[0]} alt="Lauren Keeley"/>
+        <button>previous</button>
+        <img
+          style={{
+            width:1000
+          }}
+          src={this.state.images[0]} alt="Lauren Keeley"
+        />
+        <button>next</button>
       </div>
     );
   }
