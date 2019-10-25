@@ -22,16 +22,15 @@
 }
 
 .NavBar {
-
+  min-height: 10vh;
 }
 
 .SiteTitle {
-  display: inline;
   padding: 20px;
-
+  float: left;
 }
 
 .SubMenu {
-  display: inline-block;
   padding: 20px;
+  float: right;
 }
