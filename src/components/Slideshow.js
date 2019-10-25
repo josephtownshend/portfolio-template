@@ -31,16 +31,20 @@ export default class Slideshow extends React.Component {
 
   render() {
     return(
-      <div>
-        <button onClick={this.handlePrevious}>previous</button>
-        <img
-          style={{
-            width:1000
-          }}
-          src={this.state.images[this.state.index]} alt="Lauren Keeley"
-        />
-        <button onClick={this.handleNext}>next</button>
-      </div>
+      <React.Fragment>
+        <div>
+          <img
+            style={{
+              width:1000
+            }}
+            src={this.state.images[this.state.index]} alt="Lauren Keeley"
+          />
+        </div>
+        <div>
+          <button onClick={this.handleNext}>next</button>
+          <button onClick={this.handlePrevious}>previous</button>
+        </div>
+      </React.Fragment>
     );
   }
 }
