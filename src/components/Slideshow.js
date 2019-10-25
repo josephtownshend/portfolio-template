@@ -13,15 +13,20 @@ export default class Slideshow extends React.Component {
   };
 
   handleNext = () => {
-    this.setState({
-      index: this.state.index + 1
-    });
+    if (this.state.index >= 0 && this.state.index < 3) {
+      this.setState({
+        index: this.state.index + 1
+      });
+    }
   }
 
   handlePrevious = () => {
-    this.setState({
-      index: this.state.index -1
-    })
+    if (this.state.index >= 1 && this.state.index <= 3) {
+
+      this.setState({
+        index: this.state.index -1
+      })
+    }
   }
 
 
