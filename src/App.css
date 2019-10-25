@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+.NavBar {
+
+}
+
+.SiteTitle {
+  display: inline-block;
+
+}
+
+.SubMenu {
+  display: inline-block;
+}
