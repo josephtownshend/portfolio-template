@@ -35,14 +35,14 @@ export default class Slideshow extends React.Component {
         <div>
           <img
             style={{
-              width:1000
+              width:900
             }}
             src={this.state.images[this.state.index]} alt="Lauren Keeley"
           />
         </div>
         <div>
-          <button onClick={this.handleNext}>next</button>
-          <button onClick={this.handlePrevious}>previous</button>
+          <button onClick={this.handleNext} className="Button">Next</button>
+          <button onClick={this.handlePrevious} className="Button">Previous</button>
         </div>
       </React.Fragment>
     );
