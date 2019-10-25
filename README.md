@@ -1,3 +1,19 @@
+This repo is to document the creation of an artist portfolio website template built using React.
+
+
+Components:
+
+- Header
+- ~~Slideshow~~
+- Footer
+
+Pages:
+
+- Home page
+- About page
+- Writing page
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
