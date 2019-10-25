@@ -18,10 +18,18 @@ export default class Slideshow extends React.Component {
     });
   }
 
+  handlePrevious = () => {
+    this.setState({
+      index: this.state.index -1
+    })
+  }
+
+
+
   render() {
     return(
       <div>
-        <button>previous</button>
+        <button onClick={this.handlePrevious}>previous</button>
         <img
           style={{
             width:1000
