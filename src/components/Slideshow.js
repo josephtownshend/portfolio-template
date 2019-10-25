@@ -8,8 +8,15 @@ export default class Slideshow extends React.Component {
       "http://www.fruttagallery.com/wp-content/uploads/2.LaurenKeeley_InaYear_2015_Frutta.jpg",
       "http://www.fruttagallery.com/wp-content/uploads/3.LaurenKeeley_InaYear_2015_Frutta.jpg",
       "http://www.fruttagallery.com/wp-content/uploads/4.LaurenKeeley_InaYear_2015_Frutta.jpg"
-    ]
+    ],
+    index: 0
   };
+
+  handleNext = () => {
+    this.setState({
+      index: this.state.index + 1
+    });
+  }
 
   render() {
     return(
@@ -19,9 +26,9 @@ export default class Slideshow extends React.Component {
           style={{
             width:1000
           }}
-          src={this.state.images[0]} alt="Lauren Keeley"
+          src={this.state.images[this.state.index]} alt="Lauren Keeley"
         />
-        <button>next</button>
+        <button onClick={this.handleNext}>next</button>
       </div>
     );
   }
