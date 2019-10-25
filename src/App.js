@@ -3,13 +3,13 @@ import Slideshow from './components/Slideshow';
 import Header from './components/Header';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Slideshow />
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Slideshow />
+      </div>
+    );
+  }
 }
-
-export default App;
