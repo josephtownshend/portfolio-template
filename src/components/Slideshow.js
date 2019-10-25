@@ -41,8 +41,8 @@ export default class Slideshow extends React.Component {
           />
         </div>
         <div>
-          <button onClick={this.handleNext} className="Button">Next</button>
           <button onClick={this.handlePrevious} className="Button">Previous</button>
+          <button onClick={this.handleNext} className="Button">Next</button>
         </div>
       </React.Fragment>
     );
