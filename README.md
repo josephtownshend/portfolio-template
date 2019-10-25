@@ -3,7 +3,7 @@ This repo is to document the creation of an artist portfolio website template bu
 
 Components:
 
-- Header
+- ~~Header~~
 - ~~Slideshow~~
 - Footer
 
