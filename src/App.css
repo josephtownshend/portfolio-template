@@ -26,10 +26,12 @@
 }
 
 .SiteTitle {
-  display: inline-block;
+  display: inline;
+  padding: 20px;
 
 }
 
 .SubMenu {
   display: inline-block;
+  padding: 20px;
 }
