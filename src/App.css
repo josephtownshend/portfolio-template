@@ -51,3 +51,15 @@ border: none;
 .Button_subMenu:focus {
   outline:0;
 }
+
+.CV h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.List {
+  list-style-type: none;
+  font-weight: normal;
+  padding: 0px;
+  line-height: 1.7em;
+}

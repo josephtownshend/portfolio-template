@@ -51,12 +51,7 @@ export default class App extends React.Component {
             handleChangeWriting={this.handleChangeWriting}
             handleChangeTitle={this.handleChangeTitle}
           />
-          <Writing
-            whichComponent={this.state.whichComponent}
-            handleChangeAbout={this.handleChangeAbout}
-            handleChangeWriting={this.handleChangeWriting}
-            handleChangeTitle={this.handleChangeTitle}
-          />
+          <Writing />
         </div>
       );
     } else if (this.state.whichComponent === "About") {
