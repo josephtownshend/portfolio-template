@@ -6,11 +6,11 @@
   min-height: 10vh;
 }
 
-.SiteTitle {
+/* .SiteTitle {
   padding: 20px;
   float: left;
   font-size: 20px;
-}
+} */
 
 .SubMenu {
   padding: 20px;
@@ -26,5 +26,28 @@
 }
 
 .Button:focus {
+  outline:0;
+}
+
+.Button_title {
+padding: 20px;
+float: left;
+font-size: 20px;
+border: none;
+
+}
+
+.Button_title:focus {
+  outline:0;
+}
+
+.Button_subMenu {
+  padding: 20px;
+  float: right;
+  font-size: 20px;
+  border: none;
+}
+
+.Button_subMenu:focus {
   outline:0;
 }

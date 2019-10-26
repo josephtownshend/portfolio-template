@@ -7,9 +7,9 @@ export default class Header extends React.Component {
     return (
       <React.Fragment>
         <div className="NavBar">
-          <div className="SiteTitle">Artist Name</div>
-          <div className="SubMenu">About</div>
-          <div className="SubMenu">Writing</div>
+          <button onClick={this.handlePrevious} className="Button_title">Artist Website</button>
+          <button onClick={this.handlePrevious} className="Button_subMenu">About</button>
+          <button onClick={this.handlePrevious} className="Button_subMenu">Writing</button>
         </div>
       </React.Fragment>
     );
