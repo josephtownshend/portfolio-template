@@ -6,12 +6,8 @@ Components:
 - ~~Header~~
 - ~~Slideshow~~
 - Footer
-
-Pages:
-
-- Home page
-- About page
-- Writing page
+- About
+- Writing
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
