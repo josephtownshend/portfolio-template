@@ -7,10 +7,30 @@ import './App.css';
 export default class App extends React.Component {
 
   state = {
-    visible: true
+    whichComponentToShow: "Slideshow"
   }
 
   render() {
+    if (this.state.whichComponentToShow === "Slideshow") {
+      return (
+        <div className="App">
+          <Slideshow />
+        </div>
+      )
+    } else if (this.state.whichComponentToShow === "Writing") {
+      return (
+        <div className="App">
+          <Writing />
+        </div>
+      )
+    } else if (this.state.whichComponentToShow === "About") {
+      return (
+        <div className="App">
+          <About />
+        </div>
+      )
+    }
+
     return (
       <div className="App">
         <Header />
