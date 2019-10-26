@@ -13,7 +13,7 @@ export default class App extends React.Component {
 
   handleChangeTitle = () => {
     this.setState({
-      whichComponent: "About"
+      whichComponent: "Slideshow"
     });
   };
 
@@ -33,7 +33,12 @@ export default class App extends React.Component {
     if (this.state.whichComponent === "Slideshow") {
       return (
         <div className="App">
-          <Header />
+          <Header
+            whichComponent={this.state.whichComponent}
+            handleChangeAbout={this.handleChangeAbout}
+            handleChangeWriting={this.handleChangeWriting}
+            handleChangeTitle={this.handleChangeTitle}
+          />
           <Slideshow />
         </div>
       );

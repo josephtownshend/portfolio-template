@@ -7,9 +7,9 @@ export default class Header extends React.Component {
     return (
       <React.Fragment>
         <div>
-          <button onClick={this.handleChange} className="Button_title">Artist Website</button>
-          <button onClick={this.handleChange} className="Button_subMenu">About</button>
-          <button onClick={this.handleChange} className="Button_subMenu">Writing</button>
+          <button onClick={this.props.handleChangeTitle} className="Button_title">Artist Website</button>
+          <button onClick={this.props.handleChangeAbout} className="Button_subMenu">About</button>
+          <button onClick={this.props.handleChangeWriting} className="Button_subMenu">Writing</button>
         </div>
       </React.Fragment>
     );
