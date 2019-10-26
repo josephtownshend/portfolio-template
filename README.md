@@ -9,7 +9,7 @@ Components:
 - Footer
 - ~~About~~
   - ~~Bio section~~
-  - Contact?
+- ~~Contact~~
 - ~~Writing~~
   - Block of links?
 
