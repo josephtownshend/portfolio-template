@@ -5,11 +5,13 @@ Components:
 
 - ~~Header~~
 - ~~Slideshow~~
+  - How to have a caption for each image?
 - Footer
 - ~~About~~
-  - Bio section
+  - ~~Bio section~~
   - Contact?
 - ~~Writing~~
+  - Block of links?
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
