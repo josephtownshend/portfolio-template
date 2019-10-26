@@ -30,12 +30,5 @@ export default class App extends React.Component {
         </div>
       )
     }
-
-    return (
-      <div className="App">
-        <Header />
-        { this.state.visible ? <Slideshow /> : <Writing /> }
-      </div>
-    );
-  }
+  }  
 }
