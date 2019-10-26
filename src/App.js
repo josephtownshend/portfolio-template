@@ -45,14 +45,29 @@ export default class App extends React.Component {
     } else if (this.state.whichComponent === "Writing") {
       return (
         <div className="App">
-          <Header />
-          <Writing />
+          <Header
+            whichComponent={this.state.whichComponent}
+            handleChangeAbout={this.handleChangeAbout}
+            handleChangeWriting={this.handleChangeWriting}
+            handleChangeTitle={this.handleChangeTitle}
+          />
+          <Writing
+            whichComponent={this.state.whichComponent}
+            handleChangeAbout={this.handleChangeAbout}
+            handleChangeWriting={this.handleChangeWriting}
+            handleChangeTitle={this.handleChangeTitle}
+          />
         </div>
       );
     } else if (this.state.whichComponent === "About") {
       return (
         <div className="App">
-          <Header />
+          <Header
+            whichComponent={this.state.whichComponent}
+            handleChangeAbout={this.handleChangeAbout}
+            handleChangeWriting={this.handleChangeWriting}
+            handleChangeTitle={this.handleChangeTitle}
+          />
           <About />
         </div>
       );
