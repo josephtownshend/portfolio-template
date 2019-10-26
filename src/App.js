@@ -8,31 +8,50 @@ import './App.css';
 export default class App extends React.Component {
 
   state = {
-    whichComponentToShow: "Slideshow"
-  }
+    whichComponent: "Slideshow"
+  };
+
+  handleChangeTitle = () => {
+    this.setState({
+      whichComponent: "About"
+    });
+  };
+
+  handleChangeWriting = () => {
+    this.setState({
+      whichComponent: "Writing"
+    });
+  };
+
+  handleChangeAbout = () => {
+    this.setState({
+      whichComponent: "About"
+    });
+  };
 
   render() {
-    if (this.state.whichComponentToShow === "Slideshow") {
+    if (this.state.whichComponent === "Slideshow") {
       return (
         <div className="App">
           <Header />
           <Slideshow />
         </div>
-      )
-    } else if (this.state.whichComponentToShow === "Writing") {
+      );
+    } else if (this.state.whichComponent === "Writing") {
       return (
         <div className="App">
           <Header />
           <Writing />
         </div>
-      )
-    } else if (this.state.whichComponentToShow === "About") {
+      );
+    } else if (this.state.whichComponent === "About") {
       return (
         <div className="App">
           <Header />
           <About />
         </div>
-      )
+      );
     }
+    return null;
   }
 }
