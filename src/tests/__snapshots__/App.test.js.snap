@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="NavBar"
+  >
+    <button
+      className="Button_title"
+      onClick={[Function]}
+    >
+      Artist Website
+    </button>
+    <button
+      className="Button_subMenu"
+      onClick={[Function]}
+    >
+      Contact
+    </button>
+    <button
+      className="Button_subMenu"
+      onClick={[Function]}
+    >
+      About
+    </button>
+    <button
+      className="Button_subMenu"
+      onClick={[Function]}
+    >
+      Writing
+    </button>
+  </div>
+  <div>
+    <img
+      alt="Lauren Keeley"
+      src="http://www.fruttagallery.com/wp-content/uploads/1.LaurenKeeley_InaYear_2015_Frutta.jpg"
+      style={
+        Object {
+          "width": 900,
+        }
+      }
+    />
+  </div>
+  <div>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Previous
+    </button>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;
