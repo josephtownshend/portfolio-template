@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="NavBar"
+>
+  <button
+    className="Button_title"
+  >
+    Artist Website
+  </button>
+  <button
+    className="Button_subMenu"
+  >
+    Contact
+  </button>
+  <button
+    className="Button_subMenu"
+  >
+    About
+  </button>
+  <button
+    className="Button_subMenu"
+  >
+    Writing
+  </button>
+</div>
+`;

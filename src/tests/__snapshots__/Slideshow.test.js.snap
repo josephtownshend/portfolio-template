@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div>
+    <img
+      alt="Lauren Keeley"
+      src="http://www.fruttagallery.com/wp-content/uploads/1.LaurenKeeley_InaYear_2015_Frutta.jpg"
+      style={
+        Object {
+          "width": 900,
+        }
+      }
+    />
+  </div>,
+  <div>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Previous
+    </button>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Next
+    </button>
+  </div>,
+]
+`;
