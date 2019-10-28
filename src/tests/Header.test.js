@@ -14,4 +14,4 @@ it('shallow renders without crashing', () => {
 it('renders correctly', () => {
   const tree = renderer.create(<Header />).toJSON();
   expect(tree).toMatchSnapshot();
-});
+})
