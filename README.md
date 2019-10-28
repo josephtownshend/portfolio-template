@@ -13,13 +13,6 @@ This repo is to document the creation of an artist portfolio website template bu
 - ~~Writing~~
   - Block of links?
 
-  ### To Test
-
-  run...
-  `$ npm test`
-
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
