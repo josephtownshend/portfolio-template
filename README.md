@@ -1,7 +1,7 @@
 This repo is to document the creation of an artist portfolio website template built using React.
 
 
-Components:
+###Components:
 
 - ~~Header~~
 - ~~Slideshow~~
@@ -12,6 +12,12 @@ Components:
 - ~~Contact~~
 - ~~Writing~~
   - Block of links?
+
+  ### To Test
+
+  run...
+  `$ npm test`
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
