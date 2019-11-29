@@ -1,7 +1,7 @@
-This repo is to document the creation of an artist portfolio website template built using React.
+This repo is to document the creation of an artist portfolio website template built using React. It is a work in progress!
 
 
-###Components:
+### Components:
 
 - ~~Header~~
 - ~~Slideshow~~
